@@ -1,16 +1,16 @@
 $fn=200;
 
-switchLength=13.2;
+switchLength=13.5;
 switchWidth=9;
 switchBodyHeight=10.3;
 switchWiresHeight=5.4;
-ledRadius=1.5;
-connectorSlotRadius=1;
+ledRadius=1.5+0.1;
+connectorSlotRadius=1.5;
 boltRadius=2;
 
-boxLength = 50;
-boxWidth= 25;
-boxHeight = switchBodyHeight+switchWiresHeight+1;
+boxLength = 60;
+boxWidth= 40;
+boxHeight = switchBodyHeight+switchWiresHeight+4;
 boxThickness = 1.5;
 
 connectorSlots = 6;
